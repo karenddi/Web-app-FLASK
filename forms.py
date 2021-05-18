@@ -13,7 +13,7 @@ class Registration_Form(FlaskForm):
 
     confirm_password = PasswordField("Confirm Password", validators=[DataRequired(), EqualTo("password")])
 
-    sumbit = SubmitField("Sign Up")
+    submit = SubmitField("Sign Up")
 
 
 class Login_Form(FlaskForm):
@@ -24,5 +24,5 @@ class Login_Form(FlaskForm):
 
     remember = BooleanField("Remember Me")
 
-    sumbit = SubmitField("Login")
+    submit = SubmitField("Login")
 
