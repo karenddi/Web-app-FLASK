@@ -1,4 +1,4 @@
-from flask import Flask, render_template, url_for, flash, redirect
+from flask import Flask, render_template, url_for, flash, redirect, request
 from forms import Registration_Form, Login_Form
 
 app = Flask(__name__)
@@ -34,6 +34,11 @@ def login():
         else:
             flash("Login unsuccesful! Please check username and password.", "danger")
     return render_template("login1.html", title="Login", form=form)
+
+@app.route("/find", methods=["GET", "POST"])
+def dropdown_month():
+    months =["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"]
+    return render_template("month.html", months=months, title="Find")
 
 
 if __name__ == "__main__":
