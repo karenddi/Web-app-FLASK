@@ -1,0 +1,2 @@
+Veggies: Asparagus, Lettuce
+Fruit: Cherries, Mangoes, Pineapples, Rhubarb
