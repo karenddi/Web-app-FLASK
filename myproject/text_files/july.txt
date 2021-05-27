@@ -1,0 +1,2 @@
+Veggies: Zucchini, Lettuce, Cucumbers, Green beans
+Fruit: Cherries, Apricots, Blueberries, Kiwi, Mangoes, Peaches, Strawberries, Watermelon, Blackberries 
