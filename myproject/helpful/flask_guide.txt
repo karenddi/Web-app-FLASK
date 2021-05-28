@@ -1,0 +1,22 @@
+FLASK WORKING
+
+C:\Users\karol>cd Desktop
+
+C:\Users\karol\Desktop>cd Flask
+
+C:\Users\karol\Desktop\FLASK>set FLASK_APP=flasktest.py
+
+C:\Users\karol\Desktop\FLASK>flask run
+
+Podaje nam link, kopiujemy do przeglądarki i działa.
+
+ctrl + C = wyjdz, stop running
+
+W przypadku FLASK_APP=...PY
+trzeba po kazdej zmianie stopowac i od nowa run, zeby byla widoczna
+Jesli chcemy tego uniknac to:
+
+C:\Users\karol\Desktop\FLASK>set FLASK_DEBUG=1 
+C:\Users\karol\Desktop\FLASK>flask run
+
+bootstrap - ładny wygląd strony, bez cackania sie
